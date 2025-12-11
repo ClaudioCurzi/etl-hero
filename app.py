@@ -358,7 +358,7 @@ else:
                             st.session_state['df_work'] = dfw
                             st.session_state['missions'].append(f"Forced {m['column']} to YYYY-MM-DD parse")
                         else:
-                            st.warning('Scegli un'azione prima di applicare')
+                            st.warning('Scegli un\'azione prima di applicare')
                         st.experimental_rerun()
 
     # show current missions log
