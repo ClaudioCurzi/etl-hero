@@ -407,7 +407,5 @@ if st.session_state.get('_rerun_needed'):
         # in environments where rerun isn't allowed at this point, just continue silently
         pass
 
-st.write('
----
-')
+st.write('')
 st.write('Made with ❤️ — ETL Hero POC')
