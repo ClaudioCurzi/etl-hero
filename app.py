@@ -286,7 +286,7 @@ else:
                             st.session_state['df_work'] = dfw
                             st.session_state['missions'].append(f"Clipped {m['column']} to 1%-99% quantiles ({low} - {high})")
                         else:
-                            st.warning('Scegli un'azione prima di applicare')
+                            st.warning('Scegli un\'azione prima di applicare')
                         st.experimental_rerun()
 
                 elif m['type']=='null':
